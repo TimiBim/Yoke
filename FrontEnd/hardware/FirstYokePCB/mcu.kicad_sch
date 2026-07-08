@@ -8120,6 +8120,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:MIC2544-2YM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14345,16 +14444,6 @@
 		)
 		(uuid "ff3034e0-15a6-48e5-bb16-9292593859d9")
 	)
-	(label "PD7{slash}LED3"
-		(at 312.42 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "055fafa9-3ef2-4673-bcdf-4e63307d5fdf")
-	)
 	(label "PE13{slash}EncoderB1"
 		(at 52.07 96.52 0)
 		(effects
@@ -14445,16 +14534,6 @@
 		)
 		(uuid "187b34b1-2fa2-45d2-9616-b76de0c0807f")
 	)
-	(label "PD8{slash}LED4"
-		(at 312.42 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1adf3b1f-bbe9-4427-bab6-de7a726d2e7a")
-	)
 	(label "USB_D+"
 		(at 124.46 68.58 180)
 		(effects
@@ -14495,8 +14574,28 @@
 		)
 		(uuid "26e088b4-215d-4ae5-816c-cd7d92394c0d")
 	)
+	(label "PD9{slash}LED1"
+		(at 312.42 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b5e8e6d-50ee-4807-b783-57fc37ff7dc8")
+	)
+	(label "PD5{slash}LED3"
+		(at 312.42 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c54e6b6-5ca8-4a0c-b6b1-2da068e9fc9b")
+	)
 	(label "PD2{slash}EncoderA4"
-		(at 52.07 111.76 0)
+		(at 52.07 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14545,6 +14644,16 @@
 		)
 		(uuid "3bd65c37-216e-4ccb-908f-b85b2e762f45")
 	)
+	(label "PD8{slash}LED2"
+		(at 312.42 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f0ca962-1524-47c9-821e-352655e32ea7")
+	)
 	(label "CAN_RX"
 		(at 21.59 227.33 0)
 		(effects
@@ -14585,8 +14694,8 @@
 		)
 		(uuid "482272eb-088e-4157-869f-03ea96c19f26")
 	)
-	(label "PD9{slash}LED5"
-		(at 57.15 129.54 0)
+	(label "PD7{slash}LED5"
+		(at 57.15 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14615,8 +14724,8 @@
 		)
 		(uuid "5413b0d8-58ac-4ced-b9f7-e6c4450597d9")
 	)
-	(label "PD7{slash}LED3"
-		(at 57.15 124.46 0)
+	(label "PD5{slash}LED3"
+		(at 57.15 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14625,8 +14734,8 @@
 		)
 		(uuid "55bbbee5-646d-4ef5-9d1a-2c8d2b115f43")
 	)
-	(label "PD6{slash}LED2"
-		(at 57.15 121.92 0)
+	(label "PD8{slash}LED2"
+		(at 57.15 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14644,6 +14753,16 @@
 			(justify left bottom)
 		)
 		(uuid "5c26c723-3f6d-4ddb-b47b-92dac688734d")
+	)
+	(label "PD6{slash}LED4"
+		(at 312.42 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60994ada-eec4-492e-a36b-b745a483b86a")
 	)
 	(label "MISO"
 		(at 370.84 99.06 180)
@@ -14696,7 +14815,7 @@
 		(uuid "7036e563-bda0-4f41-b0b7-376fac1d7049")
 	)
 	(label "PD3{slash}EncoderB4"
-		(at 52.07 114.3 0)
+		(at 52.07 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14865,16 +14984,6 @@
 		)
 		(uuid "8a0b0cf6-bc0d-4074-a951-771958109747")
 	)
-	(label "PD9{slash}LED5"
-		(at 312.42 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d853ce3-3dff-4b19-8942-5e5fe564d0c6")
-	)
 	(label "CAN_TX"
 		(at 21.59 224.79 0)
 		(effects
@@ -14905,8 +15014,8 @@
 		)
 		(uuid "90d3ddd5-84f0-4fe3-8210-2531b99ae633")
 	)
-	(label "PD5{slash}LED1"
-		(at 57.15 119.38 0)
+	(label "PD9{slash}LED1"
+		(at 57.15 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14924,6 +15033,16 @@
 			(justify right bottom)
 		)
 		(uuid "957d35fc-970b-4055-a82d-c11868414575")
+	)
+	(label "PD7{slash}LED5"
+		(at 312.42 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9581b37a-d7f1-40c0-9928-e8ba976a2b08")
 	)
 	(label "DC"
 		(at 128.27 45.72 180)
@@ -15025,6 +15144,16 @@
 		)
 		(uuid "adbcc7ce-ac5b-41db-a617-268279bc3fdf")
 	)
+	(label "PD10{slash}LED6"
+		(at 312.42 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae257a62-eb59-487d-8198-df002a7e3f02")
+	)
 	(label "SCL"
 		(at 120.65 96.52 180)
 		(effects
@@ -15056,7 +15185,7 @@
 		(uuid "b7459ecc-b732-4eab-9ff5-9c2182bf7fdd")
 	)
 	(label "PD1{slash}EncoderB3"
-		(at 52.07 109.22 0)
+		(at 52.07 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15064,16 +15193,6 @@
 			(justify left bottom)
 		)
 		(uuid "b878aaee-1a0f-44f9-a031-c92d53b8c9a4")
-	)
-	(label "PD10{slash}LED6"
-		(at 312.42 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b92ed720-560b-46ec-977d-d6ccd5872ef7")
 	)
 	(label "MOSI"
 		(at 370.84 96.52 180)
@@ -15125,8 +15244,8 @@
 		)
 		(uuid "c3143e18-48b0-4353-862c-cfd6cb77fdaa")
 	)
-	(label "PD8{slash}LED4"
-		(at 57.15 127 0)
+	(label "PD6{slash}LED4"
+		(at 57.15 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15194,16 +15313,6 @@
 			(justify right bottom)
 		)
 		(uuid "d1c4f4b5-c7f4-4d6d-9662-cdd1b8bfab2b")
-	)
-	(label "PD6{slash}LED2"
-		(at 312.42 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d429ebf6-a831-4744-b355-0138bf6f8a78")
 	)
 	(label "PD12{slash}Paddel1"
 		(at 359.41 135.89 270)
@@ -15345,18 +15454,8 @@
 		)
 		(uuid "f203a19d-c10d-4cc1-bd65-9d031bfa4b80")
 	)
-	(label "PD5{slash}LED1"
-		(at 312.42 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f822fa23-6701-408d-a585-cc4e82a22d9c")
-	)
 	(label "PD0{slash}EncoderA3"
-		(at 52.07 106.68 0)
+		(at 52.07 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18512,6 +18611,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 359.41 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b87a5b3-de19-485a-bdbf-6ef7b6c4ece5")
+		(property "Reference" "H4"
+			(at 361.95 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 361.95 203.1999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 359.41 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 359.41 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WheelFrontEndDevBoard_PCB"
+				(path "/85dbb02c-4385-42bd-bc66-9d48d0141caa/c0095f14-23fc-417b-907a-c28614f940a7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 201.93 0)
 		(unit 1)
@@ -20664,6 +20840,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 332.74 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "710752da-8dc8-40a1-b91e-24654e92fa94")
+		(property "Reference" "H1"
+			(at 335.28 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 335.28 203.1999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 332.74 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 332.74 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WheelFrontEndDevBoard_PCB"
+				(path "/85dbb02c-4385-42bd-bc66-9d48d0141caa/c0095f14-23fc-417b-907a-c28614f940a7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 308.61 26.67 0)
 		(unit 1)
@@ -22060,6 +22313,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 350.52 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817bde42-42f3-4cac-a109-72a0977560dc")
+		(property "Reference" "H3"
+			(at 353.06 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 353.06 203.1999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 350.52 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 350.52 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WheelFrontEndDevBoard_PCB"
+				(path "/85dbb02c-4385-42bd-bc66-9d48d0141caa/c0095f14-23fc-417b-907a-c28614f940a7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 161.29 198.12 0)
 		(unit 1)
@@ -23389,6 +23719,83 @@
 			(project "WheelFrontEndDevBoard_PCB"
 				(path "/85dbb02c-4385-42bd-bc66-9d48d0141caa/c0095f14-23fc-417b-907a-c28614f940a7"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 341.63 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff74881-09fb-40d5-a12f-489c8b4e15ad")
+		(property "Reference" "H2"
+			(at 344.17 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 344.17 203.1999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 341.63 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 341.63 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "WheelFrontEndDevBoard_PCB"
+				(path "/85dbb02c-4385-42bd-bc66-9d48d0141caa/c0095f14-23fc-417b-907a-c28614f940a7"
+					(reference "H2")
 					(unit 1)
 				)
 			)
