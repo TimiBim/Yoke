@@ -33,4 +33,8 @@ drop across the cable.
 ## License
 
 - Hardware: CERN-OHL-S v2
+<<<<<<< HEAD
 - Firmware: MIT
+=======
+- Firmware: MIT
+>>>>>>> 96b137e (Changed the README.md)
