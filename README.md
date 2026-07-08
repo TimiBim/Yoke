@@ -18,11 +18,8 @@ over CAN bus. Power and data arrive over a single hot-pluggable connector.
 - **MCP23017** I²C expander for button matrix
 - **Hot-plug safe** — MIC2544 current-limit controller and charge pump so the
   wheel can be connected while the rig is powered
-- **Cable break detection** (*drahtbruchsicher*) — the design fails safe if the
-  wheel-to-base cable is disconnected or damaged mid-session
 - **ESD protection** on all external connections (ESD2CAN24DCKRQ1)
 - **USB-C** for firmware flashing and debug
-- 4-layer PCB with controlled-impedance CAN and USB routing
 
 ## Power Architecture
 
@@ -33,8 +30,4 @@ drop across the cable.
 ## License
 
 - Hardware: CERN-OHL-S v2
-<<<<<<< HEAD
 - Firmware: MIT
-=======
-- Firmware: MIT
->>>>>>> 96b137e (Changed the README.md)
