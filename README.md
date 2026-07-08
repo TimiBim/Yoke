@@ -1,5 +1,7 @@
 # Yoke
 
+<img width="1754" height="1296" alt="image" src="https://github.com/user-attachments/assets/9570985a-9298-4ee2-8387-66747c297f4c" />
+
 A sim racing steering wheel / yoke controller built around an STM32G491VE.
 
 ## Overview
